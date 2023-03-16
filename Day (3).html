@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+      @import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Exo 2', sans-serif;
+}
+body{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 30rem;
+    width: 50rem;
+    padding: 10px;
+}
+/*                                            HEADER                                                   */
+.box1{
+    width: 100%;
+    height: 3.5rem;
+    background-color: aqua;
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 10px;padding: 10px;
+    border-radius: 3px 3px 0 0;
+}
+/*                                            BODY                                                  */
+h1{
+    width: 100%;
+    height: 7rem;
+    font-size: 45px;
+    background-color: wheat;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.box2{
+    width: 100%;
+    height: 16rem;
+    background-color: rgb(48, 183, 207);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   /* flex-direction: row; */
+
+}
+/*                                         SMALL BOX                                                   */
+.smallbox1{
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(233, 105, 0);
+    margin-right: 70px;
+    margin-left: 70px;
+    border-radius: 25px;
+}
+.smallbox2{
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(233, 105, 0); 
+    margin-right: 70px;
+    border-radius: 25px;
+}
+.smallbox3{
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(233, 105, 0);
+    margin-right: 70px;
+    border-radius: 25px;
+}
+.smallbox4{
+    height: 7rem;
+    width: 7rem;
+    background-color: rgb(233, 105, 0);
+    margin-right: 70px;
+    border-radius: 25px;
+}
+/*                                      SMALL  BOX HOVER                                                  */
+.smallbox1:hover, .smallbox2:hover,.smallbox3:hover,.smallbox4:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: orangered;
+}
+/*                                            BUTTON                                                   */
+.btn{
+    height: 6rem;
+    background-color: rgb(48, 183, 207);
+    margin-bottom: .5rem;
+    text-align: center;
+
+}
+.btn button{
+    width: 50%;
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    font-size: medium;
+    font-style: italic;
+    border: none;
+} 
+/*                                            BUTTON HOVER                                                   */
+.btn button:hover{
+    background-color: darkblue;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+/*                                            FOOTER                                                  */
+.black{
+    background-color: black;
+    height: 3rem;
+    border-radius: 0px 0px 3px 3px;
+
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">Ecommrence Template</div>
+            <h1>Shop From The Below Range Of Products</h1> 
+             <div class="box2">
+
+                <div class="smallbox1"></div>
+                <div class="smallbox2"></div>
+                <div class="smallbox3"></div>
+                <div class="smallbox4"></div>
+            
+             </div>
+
+            <div class="btn"><button>Expilore More</button></div>
+            
+        <div class="black"></div>
+    </div>
+</body>
+</html>
